@@ -172,7 +172,11 @@ width: 100%;
   width: 700px;
   height: 450px;
 }
-
+.logoImg {
+  border-radius: 5px;
+  padding:20px;
+  cursor: pointer;
+}
 
 .desc{
 position: absolute;
