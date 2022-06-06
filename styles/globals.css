@@ -24,6 +24,7 @@ width: 100%;
 }
 .layout{
   padding: 10px;
+  overflow-x: hidden;
 }
 
 .navbar-container{
@@ -692,7 +693,7 @@ margin-top: 160px;
   }
   .cart-container{
     width: 415px;
-  padding: 4px;
+    padding: 4px;
   }
   .cart-heading{
     margin-top: 35px;
@@ -777,6 +778,9 @@ margin-top: 160px;
   }
   .footer-banner-image {
     width: 99%;
+  }
+  .cart-container {
+    width: 340px;
   }
 }
 
