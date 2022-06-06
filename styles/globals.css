@@ -453,7 +453,9 @@ padding: 30px 65px;
   height: 70px;
   cursor: pointer;
 }
-
+.small-image:hover{
+  background-color: #f02d34;
+}
 .selected-image{
   background-color:#f02d34;
 }
