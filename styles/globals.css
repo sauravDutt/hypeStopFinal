@@ -779,3 +779,18 @@ margin-top: 160px;
     width: 99%;
   }
 }
+
+@media screen and (max-width:400px) {
+
+  .hero-banner-image {
+    width: 120%;
+    right: -32%;
+  }
+  .footer-banner-image {
+    width: 110%;
+  }
+  .footer-banner-container{
+    height: 560px;
+    margin-top: 80px;
+  }
+}
