@@ -1,5 +1,4 @@
 import React from 'react'
-import {motion} from 'framer-motion';
 import Link from 'next/link'
 import Image from 'next/image';
 import {AiOutlineShopping} from 'react-icons/ai';
@@ -23,13 +22,9 @@ const Navbar = () => {
             />
         </Link>
       </p>
-      <button
-        type='button'
-        className='cart-icon'
-        onClick={() => setShowCart(true)}
-      >
+      <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
-        <span className='cart-item-qty'>{totalQuantities}</span>
+        <span className="cart-item-qty">{totalQuantities}</span>
       </button>
 
       {showCart && <Cart /> }

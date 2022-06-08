@@ -20,7 +20,7 @@ const HeroBanner = ({ heroBanner }) => {
 
         <div>
           <Link href={`/product/${heroBanner.product}`}>
-            <button type='button' className>
+            <button type='button'>
               {heroBanner.buttonText}
             </button>
           </Link>
