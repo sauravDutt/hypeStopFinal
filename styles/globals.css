@@ -784,6 +784,7 @@ margin-top: 160px;
   }
   .product-detail-image {
     width: 340px;
+    margin-left: -16px;
   }
   .success {
     width: 320px;
