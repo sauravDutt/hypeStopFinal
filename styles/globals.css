@@ -782,6 +782,9 @@ margin-top: 160px;
   .cart-container {
     width: 340px;
   }
+  .product-detail-image {
+    width: 340px;
+  }
   .success {
     width: 320px;
   }
