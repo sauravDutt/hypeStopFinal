@@ -11,13 +11,6 @@ const Layout = ({children}) => {
           HYPESTOP
         </title>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE0ECH2BLR"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-CE0ECH2BLR');
-        </script> 
       </Head>
       <header>
         <Navbar />
