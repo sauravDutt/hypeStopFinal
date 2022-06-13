@@ -17,10 +17,10 @@ const Navbar = () => {
       <a href='https://www.instagram.com/hypestopindia/' target='_blank' className="cart-icon instagram">
       <AiFillInstagram />
       </a>
-      <button type="button" className="cart-icon" onClick={() => alert("This feature is not available")}>
+      <button type="button" className="cart-icon" onClick={""}>
         <GiRunningShoe />
       </button>
-      <button type="button" className="cart-icon" onClick={() => alert("This feature is not available")}>
+      <button type="button" className="cart-icon" onClick={""}>
         <FiWatch />
       </button>
       <p className='logo'>
@@ -34,11 +34,11 @@ const Navbar = () => {
             />
         </Link>
       </p>
-      <button type="button" className="cart-icon" onClick={() => alert("This feature is not available")}>
+      <button type="button" className="cart-icon" onClick={""}>
         <FaTshirt />
       </button>
       
-      <button type="button" className="cart-icon" onClick={() => alert("This feature is not available")}>
+      <button type="button" className="cart-icon" onClick={""}>
         <GiUnderwearShorts />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
