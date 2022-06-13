@@ -71,7 +71,7 @@ width: 100%;
 
 }
 .cart-icon{
-  font-size: 25px;
+  font-size: 30px;
   color: gray;
   cursor: pointer;
   position: relative;
@@ -80,6 +80,10 @@ width: 100%;
   background-color: transparent;
 }
 .cart-icon:hover{
+  transform: scale(1.5,1.5);
+  color: #b52a2e;
+}
+.logo:hover{
   transform: scale(1.1,1.1);
 }
 .cart-item-qty{
