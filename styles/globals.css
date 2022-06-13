@@ -79,6 +79,10 @@ width: 100%;
   border: none;
   background-color: transparent;
 }
+.instagram {
+  text-decoration: none;
+  margin-top: 10.5px;
+}
 .cart-icon:hover{
   transform: scale(1.5,1.5);
   color: #b52a2e;
