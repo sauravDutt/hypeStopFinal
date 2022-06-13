@@ -14,13 +14,13 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <a href='https://www.instagram.com/hypestopindia/' target='_blank' className="cart-icon instagram">
+      <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
       <AiFillInstagram />
       </a>
-      <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <GiRunningShoe />
       </button>
-      <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <FiWatch />
       </button>
       <p className='logo'>
@@ -34,11 +34,11 @@ const Navbar = () => {
             />
         </Link>
       </p>
-      <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <FaTshirt />
       </button>
       
-      <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <GiUnderwearShorts />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
