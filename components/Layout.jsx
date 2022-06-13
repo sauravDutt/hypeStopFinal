@@ -10,7 +10,6 @@ const Layout = ({children}) => {
         <title>
           HYPESTOP
         </title>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CE0ECH2BLR"></script>
       </Head>
       <header>
         <Navbar />
