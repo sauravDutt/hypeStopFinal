@@ -33,13 +33,13 @@ width: 100%;
   justify-content: space-between;
   margin-top: -15px;
   margin-left: -10px;
-  z-index: 29000;
-  height: 11vh;
+  z-index: 200;
+  height: 12vh;
   padding: 25px;
   background-color: #fff;
   width: 100%;
   position: fixed;
-  box-shadow: 1px 2px 20px 9px rgba(21, 0, 59, 0.24);
+  box-shadow: 1px 2px 20px 9px rgba(0, 0, 0, 0.132);
 }
 .marquee-text{
   font-size: 29px;
@@ -167,7 +167,7 @@ width: 100%;
   border-radius: 15px;
   position: relative;
   height: 500px;
-  margin-top: 13vh;
+  margin-top: 15vh;
   line-height: 0.9; 
   width: 100%;
 
@@ -817,7 +817,7 @@ margin-top: 160px;
     width: 99%;
   }
   .navbar-container {
-    height: 10.5vh;
+    height: 12.7vh;
   }
   .cart-container {
     width: 340px;
