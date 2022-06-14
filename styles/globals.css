@@ -83,12 +83,10 @@ width: 100%;
 }
 .preOrders {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
-  border: 1px solid #5f5f5f69;
+  font-size: 19px;
   border-radius: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: -10px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .instagram {
   text-decoration: none;
@@ -820,8 +818,8 @@ margin-top: 160px;
   .preOrders {
     padding: 0;
     font-size: 15px;
-    height: 30px;
-    margin-top: 10px;
+    height: 40px;
+    margin-top: 5px;
     padding-right: 3px;
     padding-left: 3px;
     border: none;

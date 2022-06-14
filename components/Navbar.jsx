@@ -16,12 +16,6 @@ const Navbar = () => {
       <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
       <AiFillInstagram />
       </a>
-      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
-        <GiRunningShoe />
-      </button>
-      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
-        <FiWatch />
-      </button>
       <p className='logo'>
         <Link href="/">
           <Image 
@@ -33,6 +27,12 @@ const Navbar = () => {
             />
         </Link>
       </p>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
+        <GiRunningShoe />
+      </button>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
+        <FiWatch />
+      </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <GiClothes />
       </button>
