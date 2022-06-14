@@ -92,6 +92,7 @@ width: 100%;
   text-decoration: none;
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
 } 
 
 .cart-icon:hover{
