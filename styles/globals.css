@@ -28,12 +28,18 @@ width: 100%;
   padding: 10px;
   overflow-x: hidden;
 }
-
 .navbar-container{
   display: flex;
   justify-content: space-between;
-  margin: 6px 18px;
-  position: relative;
+  margin-top: -15px;
+  margin-left: -10px;
+  z-index: 29000;
+  height: 11vh;
+  padding: 25px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  box-shadow: 1px 2px 20px 9px rgba(21, 0, 59, 0.24);
 }
 .marquee-text{
   font-size: 29px;
@@ -162,6 +168,7 @@ width: 100%;
   border-radius: 15px;
   position: relative;
   height: 500px;
+  margin-top: 13vh;
   line-height: 0.9; 
   width: 100%;
 
@@ -808,6 +815,9 @@ margin-top: 160px;
   .footer-banner-image {
     width: 99%;
   }
+  .navbar-container {
+    height: 10.5vh;
+  }
   .cart-container {
     width: 340px;
   }
@@ -822,7 +832,6 @@ margin-top: 160px;
     padding: 0;
     font-size: 15px;
     height: 40px;
-    margin-top: 5px;
     padding-right: 3px;
     padding-left: 3px;
     border: none;
