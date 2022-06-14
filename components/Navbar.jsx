@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import {AiOutlineShopping, AiFillInstagram} from 'react-icons/ai';
+import {AiOutlineShopping} from 'react-icons/ai';
+import {FaTshirt} from 'react-icons/fa';
 import {FiWatch} from 'react-icons/fi';
-import {GiRunningShoe, GiClothes} from 'react-icons/gi';
+import {GiRunningShoe, GiUnderwearShorts} from 'react-icons/gi';
 
 import {Cart} from './';
 import { useStateContext } from '../context/StateContext';
@@ -24,9 +25,9 @@ const Navbar = () => {
             />
         </Link>
       </p>
-      <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
+      {/* <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
       <AiFillInstagram />
-      </a>
+      </a> */}
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <GiRunningShoe />
       </button>
@@ -34,11 +35,14 @@ const Navbar = () => {
         <FiWatch />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
-        <GiClothes />
+        <FaTshirt />
+      </button>
+      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
+        <GiUnderwearShorts />
       </button>
       
       <button type="button" className="cart-icon preOrders" onClick={() => setShowCart(false)}>
-        Preorders
+        Preorder
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
       <AiOutlineShopping />
