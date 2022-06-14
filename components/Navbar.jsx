@@ -3,8 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import {AiOutlineShopping, AiFillInstagram} from 'react-icons/ai';
 import {FiWatch} from 'react-icons/fi';
-import {FaTshirt} from 'react-icons/fa';
-import {GiRunningShoe, GiUnderwearShorts} from 'react-icons/gi';
+import {GiRunningShoe, GiClothes} from 'react-icons/gi';
 
 import {Cart} from './';
 import { useStateContext } from '../context/StateContext';
@@ -35,11 +34,11 @@ const Navbar = () => {
         </Link>
       </p>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
-        <FaTshirt />
+        <GiClothes />
       </button>
       
-      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
-        <GiUnderwearShorts />
+      <button type="button" className="cart-icon preOrders" onClick={() => setShowCart(false)}>
+        Preorders
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
       <AiOutlineShopping />

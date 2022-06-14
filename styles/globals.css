@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+
 html,
 body, * {
   padding: 0;
@@ -79,13 +81,29 @@ width: 100%;
   border: none;
   background-color: transparent;
 }
+.preOrders {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  border: 1px solid #5f5f5f69;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: -10px;
+}
 .instagram {
   text-decoration: none;
   margin-top: 10.5px;
 }
+
 .cart-icon:hover{
   transform: scale(1.3,1.3);
   color: #b52a2e;
+}
+.preOrders:hover {
+  transform: scale(1.1,1.1);
+  color: #fff;
+  font-weight: 300;
+  background-color: #b52a2e;
 }
 .logo:hover{
   transform: scale(1.1,1.1);
@@ -798,6 +816,21 @@ margin-top: 160px;
   }
   .success {
     width: 320px;
+  }
+  .preOrders {
+    padding: 0;
+    font-size: 15px;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: none;
+  } 
+  .instagram {
+    margin-left: -20px;
+  }
+  .cart-icon{
+    margin-right: -10px;
   }
 }
 
