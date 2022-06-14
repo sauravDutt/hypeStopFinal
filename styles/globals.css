@@ -90,9 +90,8 @@ width: 100%;
 .preOrders {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 19px;
-  border-radius: 10px;
-  padding-right: 5px;
-  padding-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
 }
 .instagram {
   text-decoration: none;
