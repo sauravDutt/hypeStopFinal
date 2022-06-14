@@ -93,6 +93,7 @@ width: 100%;
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
   cursor: pointer;
+  z-index: 2000;
 } 
 
 .cart-icon:hover{
