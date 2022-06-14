@@ -824,11 +824,11 @@ margin-top: 160px;
     padding-left: 3px;
     border: none;
   } 
-  .instagram {
+  .logo {
     margin-left: -20px;
   }
   .cart-icon{
-    margin-right: -10px;
+    margin-left: 3px;
   }
 }
 

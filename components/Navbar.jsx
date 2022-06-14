@@ -13,9 +13,6 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
-      <AiFillInstagram />
-      </a>
       <p className='logo'>
         <Link href="/">
           <Image 
@@ -27,6 +24,9 @@ const Navbar = () => {
             />
         </Link>
       </p>
+      <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
+      <AiFillInstagram />
+      </a>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <GiRunningShoe />
       </button>
