@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import {AiOutlineShopping} from 'react-icons/ai';
-import {FaTshirt} from 'react-icons/fa';
+import {RiTShirt2Line} from 'react-icons/ri';
 import {FiWatch} from 'react-icons/fi';
 import {GiRunningShoe, GiUnderwearShorts} from 'react-icons/gi';
 
@@ -35,7 +35,7 @@ const Navbar = () => {
         <FiWatch />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
-        <FaTshirt />
+        <RiTShirt2Line />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
         <GiUnderwearShorts />
