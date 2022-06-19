@@ -54,6 +54,11 @@ width: 100%;
   overflow-x: hidden;
 }
 
+.onClickNavBtn-container {
+  height: 40vh;
+  width: 100%;
+}
+
 .track {
   position: absolute;
   white-space: nowrap;

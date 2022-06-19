@@ -10,7 +10,7 @@ import {Cart} from './';
 import { useStateContext } from '../context/StateContext';
 
 const Navbar = () => {
-  const {showCart, setShowCart, totalQuantities} = useStateContext();
+  const {showCart, setShowCart, totalQuantities, showShoes,  setShowShoes} = useStateContext();
 
   return (
     <div className="navbar-container">
@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* <a href='https://www.instagram.com/hypestopindia/' target='_blank' rel='noreferrer' className="cart-icon instagram">
       <AiFillInstagram />
       </a> */}
-      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
+      <button type="button" className="cart-icon" onClick={() => {if(showShoes == false){ setShowShoes(true);}else{setShowShoes(false);}}}>
         <GiRunningShoe />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
