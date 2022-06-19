@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import NavbtnOpen from './NavbtnOpen';
+import ShoesOpen from './ShoesOpen';
 import { useStateContext } from '../context/StateContext';
 
 const Layout = ({children}) => {
@@ -19,7 +19,7 @@ const Layout = ({children}) => {
       <header>
         <Navbar />
       </header>
-      {showShoes && <NavbtnOpen /> }
+      {showShoes && <ShoesOpen /> }
       <main className='main-container'>
         {children}
       </main>
