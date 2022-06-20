@@ -10,7 +10,7 @@ import {Cart} from './';
 import { useStateContext } from '../context/StateContext';
 
 const Navbar = () => {
-  const {showCart, setShowCart, totalQuantities, showShoes,  setShowShoes} = useStateContext();
+  const {showCart, setShowCart, totalQuantities, showShoes,  setShowShoes, showWatches, setShowWatches} = useStateContext();
 
   return (
     <div className="navbar-container">
@@ -31,7 +31,7 @@ const Navbar = () => {
       <button type="button" className="cart-icon" onClick={() => {if(showShoes == false){ setShowShoes(true);}else{setShowShoes(false);}}}>
         <GiRunningShoe />
       </button>
-      <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>
+      <button type="button" className="cart-icon" onClick={() => {if(showWatches == false){ setShowWatches(true);} else{setShowWatches(false);}}}>
         <FiWatch />
       </button>
       <button type="button" className="cart-icon" onClick={() => setShowCart(false)}>

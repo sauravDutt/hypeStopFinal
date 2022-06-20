@@ -8,6 +8,7 @@ export const StateContext = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [showShoes, setShowShoes] = useState(false);
+  const [showWatches, setShowWatches] = useState(false);
   const [totalQuantities, setTotalQuantities] = useState(0);
   const [qty, setQty] = useState(1);
 
@@ -87,6 +88,8 @@ export const StateContext = ({ children }) => {
         totalQuantities,
         qty,
         showShoes,
+        showWatches,
+        setShowWatches,
         setShowShoes,
         incQty,
         decQty,

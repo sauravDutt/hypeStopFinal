@@ -2,7 +2,7 @@ import React from 'react';
 import {useStateContext} from '../context/StateContext';
 import {AiOutlineClose} from 'react-icons/ai'
 
-const ShoesOpen = () => {
+const TshirtOpen = () => {
 
     const {setShowShoes} = useStateContext();
 
@@ -13,9 +13,8 @@ const ShoesOpen = () => {
             <button type='button' className='closeNavBtn-container' onClick={() => setShowShoes(false)}>
                 <AiOutlineClose />
             </button>
-            <h2>Shoes</h2>
         </div>
     );
 }
 
-export default ShoesOpen;
+export default TshirtOpen;
