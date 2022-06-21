@@ -4,15 +4,16 @@ import {AiOutlineClose} from 'react-icons/ai'
 
 const PreorderOpen = () => {
 
-    const {setShowShoes} = useStateContext();
+    const {setShowPreorders} = useStateContext();
 
     return (
         <div
             className='onClickNavBtn-container'
         >
-            <button type='button' className='closeNavBtn-container' onClick={() => setShowShoes(false)}>
+            <button type='button' className='closeNavBtn-container' onClick={() => setShowPreorders(false)}>
                 <AiOutlineClose />
             </button>
+            <h2>Preorder</h2>
         </div>
     );
 }

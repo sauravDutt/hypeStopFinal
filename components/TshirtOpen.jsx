@@ -4,15 +4,16 @@ import {AiOutlineClose} from 'react-icons/ai'
 
 const TshirtOpen = () => {
 
-    const {setShowShoes} = useStateContext();
+    const {setShowTshirt} = useStateContext();
 
     return (
         <div
             className='onClickNavBtn-container'
         >
-            <button type='button' className='closeNavBtn-container' onClick={() => setShowShoes(false)}>
+            <button type='button' className='closeNavBtn-container' onClick={() => setShowTshirt(false)}>
                 <AiOutlineClose />
             </button>
+            <h2>Tshirts</h2>
         </div>
     );
 }
