@@ -1,6 +1,7 @@
 import React from 'react';
 import {useStateContext} from '../context/StateContext';
-import {AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineClose} from 'react-icons/ai';
+import {GiUnderwearShorts} from 'react-icons/gi';
 
 const ShortsOpen = () => {
 
@@ -13,7 +14,7 @@ const ShortsOpen = () => {
             <button type='button' className='closeNavBtn-container' onClick={() => setShowShorts(false)}>
                 <AiOutlineClose />
             </button>
-            <h2>Shorts</h2>
+            <h2 className='navBtn-title'><GiUnderwearShorts/> | Shorts</h2>
         </div>
     );
 }
