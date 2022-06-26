@@ -19,4 +19,5 @@ const ShoesOpen = () => {
     );
 }
 
+
 export default ShoesOpen;
