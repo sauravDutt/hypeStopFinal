@@ -1,6 +1,7 @@
 import React from 'react';
 import {useStateContext} from '../context/StateContext';
-import {AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineClose} from 'react-icons/ai';
+import {GiCardboardBoxClosed} from 'react-icons/gi';
 
 const PreorderOpen = () => {
 
@@ -13,7 +14,7 @@ const PreorderOpen = () => {
             <button type='button' className='closeNavBtn-container' onClick={() => setShowPreorders(false)}>
                 <AiOutlineClose />
             </button>
-            <h2 className='preorderContainerOnClickbtn-title'><span className='secondColor'>Pre</span>order</h2>
+            <h2 className='preorderContainerOnClickbtn-title'><GiCardboardBoxClosed/> | Preorder</h2>
         </div>
     );
 }
