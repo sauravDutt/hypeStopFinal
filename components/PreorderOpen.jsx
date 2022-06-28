@@ -14,7 +14,7 @@ const PreorderOpen = () => {
             <button type='button' className='closeNavBtn-container' onClick={() => setShowPreorders(false)}>
                 <AiOutlineClose />
             </button>
-            <h2 className='preorderContainerOnClickbtn-title'><GiCardboardBoxClosed/> | Preorder</h2>
+            <h2 className='navBtn-title'><GiCardboardBoxClosed/> | Preorder</h2>
         </div>
     );
 }
